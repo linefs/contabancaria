@@ -7,7 +7,7 @@ import conta.repository.ContaRepository;
 public class ContaController implements ContaRepository {
 	
 	
-	private ArrayList<Conta> listaContas = new ArrayList<Conta>();
+	private ArrayList<Conta> listaContas = new ArrayList<Conta>();	
 	int numero = 0;
 
 	@Override
